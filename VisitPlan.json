@@ -1,0 +1,64 @@
+{
+    "Visit Plan Name" : "The Visit Plan",
+
+    "Description" : "Visit Plan Description",
+
+    "Protocol Version" : 1.0,
+
+    "Status": "Draft",
+
+    "Visits":[
+        {
+            "Name": "Name",
+            "OID": 23222,
+            "Type" : "xxx",
+            "forms":[
+                {
+                    "Name": "Sch-Form1",
+
+                    "Type": "scheduled",
+                    
+                    "OID" : "2o3i2nio" 
+                },
+                {
+                    "Name": "Sch-Form2",
+
+                    "Type": "scheduled",
+                    
+                    "OID" : "2o3i2ni1" 
+                },
+                {
+                    "Name": "on-Form1",
+
+                    "Type": "ongoing",
+                    
+                    "OID" : "2o3i2nio" 
+                },
+                {
+                    "Name": "on-Form1",
+
+                    "Type": "ongoing",
+                    
+                    "OID" : "2o3i2nio" 
+                }
+            ]
+        }
+    ],
+    "adhoc-forms":[
+        {
+            "Name": "adForm1",
+
+            "Type": "adhoc",
+            
+            "OID" : "2o3i2nio" 
+        },
+        {
+            "Name": "Sch-Form2",
+
+            "Type": "adhoc",
+            
+            "OID" : "2o3i2ni1" 
+        }
+    ]
+
+}
